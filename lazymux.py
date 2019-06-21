@@ -392,7 +392,7 @@ def main():
 			timeout(2)
 			restart_program()
 	
-elif lazymux == "6" or lazymux == "06":
+         elif lazymux == "6" or lazymux == "06":
 		print "\n    [01] Metasploit"
 		print "    [02] commix"
 		print "    [03] sqlmap"
