@@ -8,7 +8,7 @@ from core.lzmcore import *
 
 def main():
 	banner()
-	print "   [01] Information Gathering"
+	print( "   ([01] Information Gathering") 
 	print "   [02] Vulnerability Scanner"
 	print "   [03] Stress Testing"
 	print "   [04] Password Attacks"
