@@ -392,59 +392,7 @@ def main():
 			timeout(2)
 			restart_program()
 	
-         elif lazymux == "6" or lazymux == "06":
-		print "\n    [01] Metasploit"
-		print "    [02] commix"
-		print "    [03] sqlmap"
-		print "    [04] Brutal"
-		print "    [05] A-Rat"
-		print "    [06] WPSploit"  
-		print "    [07] Websploit"
-		print "    [08] Routersploit"
-		print "    [09] BlackBox"
-		print "    [10] XAttacker"
-		print "    [11] TXTool"
-		print "    [12] MSF-Pg"
-		print "    [13] Binary Exploitation"
-		print "    [14] ASU\n"
-		print "    [00] Back to main menu\n"
-		exploitool = raw_input("lzmx > ")
-		
-		if exploitool == "01" or exploitool == "1":
-			metasploit()
-		elif exploitool == "02" or exploitool == "2":
-			commix()
-		elif exploitool == "03" or exploitool == "3":
-			sqlmap()
-		elif exploitool == "04" or exploitool == "4":
-			brutal()
-		elif exploitool == "05" or exploitool == "5":
-			a_rat()
-		elif exploitool == "06" or exploitool == "6":
-			wpsploit()
-		elif exploitool == "07" or exploitool == "7":
-			websploit()
-		elif exploitool == "08" or exploitool == "8":
-			routersploit()
-		elif exploitool == "09" or exploitool == "9":
-			blackbox()
-		elif exploitool == "10":
-			xattacker()
-		elif exploitool == "11":
-			txtool()
-		elif exploitool == "12":
-			msfpg()
-		elif exploitool == "13":
-			binploit()
-		elif exploitool == "14":
-			asu()
-		elif exploitool == "00" or exploitool == "0":
-			restart_program()
-		else:
-			print "\nERROR: Wrong Input"
-			timeout(2)
-			restart_program()
-	
+         
 	elif lazymux == "7" or lazymux == "07":
 		print "\n    [01] KnockMail"
 		print "    [02] Spammer-Grab"
