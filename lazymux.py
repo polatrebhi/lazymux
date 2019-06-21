@@ -13,7 +13,6 @@ def main():
 	print "   [03] Stress Testing"
 	print "   [04] Password Attacks"
 	print "   [05] Web Hacking"
-	print "   [06] Exploitation Tools"
 	print "   [07] Sniffing & Spoofing"
 	print "   [08] Other\n"
 	print "   [10] Exit the Lazymux\n"
